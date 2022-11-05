@@ -1,0 +1,85 @@
+    
+    header {
+        background-color: #003785;
+        color: white;
+    }
+
+    #cabecalho{
+        box-shadow: 10px 5px 10px black; ;
+    }
+
+    .nav-link{
+        color: white;
+        font-weight: bold;
+    }
+
+    .carousel-inner{
+        padding-top: 3px;
+    }
+
+    .carousel-item img{
+        height: 450px;
+    }
+
+    #inicio{
+        padding-top: 30px;
+    }
+
+    .linha span{
+        width: 100%;
+        margin-bottom: 5px solid #003785 ;
+    }
+
+    footer a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer{
+        background-color: #003785;
+        color: #fff;
+    }
+
+    footer .btn img{
+        height: 30px;
+    }
+
+    .card-img-overlay{
+        height: 450px;
+    }
+
+    .cards{
+        padding-top: 50px;
+    }
+
+    .card{
+        margin-bottom: 15px;
+    }
+
+    #cardt{
+        height: 800px;
+    }
+    .cards .nav-link{
+        color:#003785; ;
+    }
+
+    .col-6 img{
+        width:100%;
+    }
+
+    #sobre{
+        padding-top: 30px;
+    }
+
+    #aba3 h2{
+        padding-top: 30px
+    }
+
+    #aba3 button{
+        margin-top: 30px;
+    } 
+
+    #mente{
+        width: 100%;
+        margin-bottom: 20px;
+    }

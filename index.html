@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site com bootstrap</title>
+</head>
+<body class="bg-light">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg" >
+            <div class="container">
+                <h1>Mindhealth</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+             <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/japan-g512a875ed_1920.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Pense, mas não se esgote</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/meditation-g4cdb6bac5_1920.jpg" />
+                    <div class="carousel-caption ">
+                        <h2>Pratique meditação</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/mind-g3c0926a8e_1920.png" />
+                    <div class="carousel-caption">
+                        <h2>Não se culpe se não der</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <!--Cards-->
+    <div class="cards" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container">
+            <div class="container">
+                <nav class="nav nav-pills">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Inicio</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Sobre Nós</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Contato</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <section id="inicio">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-6 col-xl-4" >
+                                        <article class="card">
+                                            <header class="card-header" >
+                                                A alegria de uma mente pura
+                                            </header>
+                                            <img src="imagens/girl-3194977_960_720 (1).jpg" />
+                                            <div class="card-body">
+                                                <h4 class="card-title">Entenda o porque as crianças são felizes</h4>
+                                                <p class="card-text">
+                                                    CRIANÇA NAO TEM BOLETO! E É POR ESSE MOTIVO QUE ELAS SÃO FELIZES CARA SNIFFF.
+                                                    Ohem o sorrisinhodesse serindefeso ))
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Leia mais</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                                        <article class="card">
+                                            <header class="card-header">
+                                                Como uso excessivo de celular impacta cérebro da criança
+                                            </header>
+                                            <img src="https://s2.glbimg.com/KtCBudlfp5FH-uORb5MsBMQurgc=/0x440:1280x1920/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/U/W/DSBlxaTHWhmKtHtxBK8Q/pexels-amina-filkins-5560078-1-.jpg" />
+                                            <div class="card-body">
+                                                <h4 class="card-title">O contato exagerado com as telas na infância e na adolescência pode ter impactos profundos </h4>
+                                                <p class="card-text">
+                                                    O caso de um menino de 13 anos da Paraíba que, no dia 19 de março, confessou ter matado . . .
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Leia mais</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                                        <article class="card">
+                                            <header class="card-header">
+                                                Esta é a melhor forma de descansar a mente em meio ao estresse do dia a dia
+                                            </header>
+                                            <img src="https://s2.glbimg.com/Xlca5v0UQBQL45dXPKFkikqfpbI=/620x345/e.glbimg.com/og/ed/f/original/2021/10/24/pexels-zen-chung-5749781.jpg" />
+                                            <div class="card-body">
+                                                <h4 class="card-title">Quando longos descansos e viagens estão fora de questão, a ciência mostra que passar um tempo ao ar livre é a melhor opção</h4>
+                                                <p class="card-text">
+                                                    Depois de correr uma maratona, você certamente dará ao seu corpo o descanso de que ele precisa. Mas e quanto à exaustão mental, decorrente do trabalho e das várias outras atribuições do dia a dia? Pode ser mais difícil combater o estresse . . .
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Leia mais</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <section id="sobre" class="abrirSobre">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+                                        <img src="imagens/mechanical-g7fe0d4ccc_1920.jpg" alt="mente-motor" id="mente">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo, quo fuga minus unde, pariatur soluta omnis asperiores voluptate at voluptas. Magni dicta reiciendis atque. Dolores dolor culpa debitis explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis, veritatis dolore quam eveniet, tempora eligendi, minima accusantium quis dolorem recusandae dignissimos temporibus voluptatem ut reprehenderit nostrum. Soluta, molestias dolores!Lorem
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut unde a in maiores veniam id eum modi! Officia deserunt fugiat alias quasi blanditiis consequatur! Tenetur corrupti delectus minima iste!Lorem
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, blanditiis odio? Amet blanditiis a ratione quasi odio possimus modi animi impedit. Labore explicabo unde illo, deleniti quo tempora at ullam.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi blanditiis dicta, perspiciatis, vel recusandae aspernatur ullam labore laudantium eveniet veritatis ratione dolorum. Laborum quisquam at tempora vero eveniet id!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facere eius voluptate itaque quibusdam praesentium, ipsa aut sit. Est libero repudiandae mollitia nesciunt placeat quisquam accusamus similique rerum ullam eligendi?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At vitae fugiat dolor minima perspiciatis molestiae, voluptatibus ea similique veniam, aut magnam. Est quisquam consequatur saepe deleniti sed commodi odio laboriosam!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo error ipsam a. Vel nostrum incidunt eos a harum iure ipsa expedita earum, doloribus aliquam vero at autem eligendi ducimus voluptate!
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam itaque autem expedita nihil sapiente quasi architecto eligendi reiciendis recusandae non cumque quam rem dolore, molestias enim consectetur! Explicabo, obcaecati!
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <div class="container">
+                            <section id="contato">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>Nos contate!</h2>
+                                        <form>
+                                            <label class="form-label" for="nome">Seu nome:</label>
+                                            <input class="form-control" type="text" id="nome">
+                                            <label class="form-label" for="email">Seu e-mail:</label>
+                                            <input class="form-control" type="email" id="e-mail">
+                                            <label class="form-label" for="telefone">Seu telefone:</label>
+                                            <input class="form-control" type="tel" id="telefone">
+                                            <button type="button" class="btn btn-success btn-lg">Enviar</button>
+                                    </form>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+        <div class="container p-4 pb-0" >
+            <!-- Section: Social media -->
+            <section class="mb-4">
+            <!-- Instagram -->
+            <a
+                target="_blank"
+                class="btn text-white btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="https://www.instagram.com/aquiless.netto/"
+                role="button"
+                ><i class="fab fa-instagram"><img src="icons/instagram (1).png" alt="icone-instagram"></i
+            ></a>
+            <!-- Linkedin -->
+            <a
+                target="_blank"
+                class="btn text-white btn-floating m-1"
+                style="background-color: #0082ca;"
+                href="https://www.linkedin.com/in/aquiles-netto-06509018a/"
+                role="button"
+                ><i class="fab fa-linkedin-in"><img src="icons/linkedin.png" alt="icone-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+                target="_blank"
+                class="btn text-white btn-floating m-1"
+                style="background-color: #333333;"
+                href="https://github.com/Aquilesdevweb"
+                role="button"
+                ><i class="fab fa-github"><img href="" src="icons/github.png" alt="icone-github"></i
+            ></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #003785;">
+            © 2020 Copyright:
+        <a class="text-white" target="_blank" href="https://www.linkedin.com/in/aquiles-netto-06509018a/">
+            José Aquiles
+        </a>
+    </div>
+</footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script>
+        /*abrir seção desativada ao clicar nas opções no nav*/
+    </script>
+</body>
+</html>
